@@ -19,7 +19,6 @@ const SearchBar = ({ onSubmit }) => {
     this.setState.inputValue('');
   };
 
-
   return (
     <header>
       <SearchForm onSubmit={handleSubmit}>
